@@ -126,6 +126,13 @@ a:hover { text-decoration: underline; }
 .article-list p { margin: 0; color: var(--muted); font-size: .95rem; }
 .more-link { margin-top: 24px; font-weight: 600; }
 
+/* Series title (article groups) */
+.series-title {
+  font-size: 1.25rem; margin: 40px 0 18px; padding-bottom: 8px;
+  border-bottom: 2px solid var(--line); color: var(--slate-800);
+}
+.series-title:first-of-type { margin-top: 8px; }
+
 /* Credentials list */
 .creds {
   list-style: none; padding: 0; margin: 18px 0 0;
