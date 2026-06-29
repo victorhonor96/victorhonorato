@@ -133,6 +133,37 @@ a:hover { text-decoration: underline; }
 }
 .series-title:first-of-type { margin-top: 8px; }
 
+/* Article page (canonical articles) */
+.article-page { padding: clamp(40px, 6vw, 64px) 0 56px; }
+.article-page h1 { font-size: clamp(1.7rem, 4vw, 2.5rem); margin: 6px 0 10px; }
+.byline { color: var(--muted); font-size: .95rem; margin: 0 0 24px; }
+.prose { font-size: 1.07rem; color: var(--slate-800); line-height: 1.75; }
+.prose p { margin: 0 0 16px; }
+.prose h2 { font-size: 1.4rem; margin: 32px 0 12px; }
+.prose h3 { font-size: 1.15rem; margin: 26px 0 10px; }
+.prose ul, .prose ol { margin: 0 0 16px; padding-left: 22px; }
+.prose li { margin: 4px 0; }
+.prose strong { color: var(--ink); }
+.prose a { color: var(--accent); }
+.prose blockquote {
+  margin: 18px 0; padding: 10px 18px; border-left: 3px solid var(--accent);
+  background: var(--slate-50); color: var(--slate-800); border-radius: 0 8px 8px 0;
+}
+.prose code {
+  background: var(--slate-100); padding: 2px 6px; border-radius: 4px;
+  font-size: .92em; font-family: ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+.prose pre { background: var(--slate-800); color: #e2e8f0; padding: 16px; border-radius: 10px; overflow-x: auto; }
+.prose pre code { background: none; padding: 0; color: inherit; }
+.prose img { max-width: 100%; height: auto; border-radius: 10px; margin: 18px 0; }
+.prose table { width: 100%; border-collapse: collapse; margin: 18px 0; font-size: .95rem; display: block; overflow-x: auto; }
+.prose thead th { background: var(--slate-100); text-align: left; padding: 10px 12px; border: 1px solid var(--line); }
+.prose td { padding: 10px 12px; border: 1px solid var(--line); vertical-align: top; }
+.prose tbody tr:nth-child(even) td { background: #fbfcfe; }
+.prose hr { border: none; border-top: 1px solid var(--line); margin: 28px 0; }
+hr.article-end { margin: 32px 0 16px; border: none; border-top: 1px solid var(--line); }
+.original { color: var(--muted); font-size: .92rem; }
+
 /* Credentials list */
 .creds {
   list-style: none; padding: 0; margin: 18px 0 0;
