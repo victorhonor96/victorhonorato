@@ -126,6 +126,18 @@ a:hover { text-decoration: underline; }
 .article-list p { margin: 0; color: var(--muted); font-size: .95rem; }
 .more-link { margin-top: 24px; font-weight: 600; }
 
+/* Credentials list */
+.creds {
+  list-style: none; padding: 0; margin: 18px 0 0;
+  display: grid; gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+.creds li {
+  background: #fff; border: 1px solid var(--line); border-radius: 12px;
+  padding: 14px 18px; box-shadow: var(--shadow); font-size: 1rem;
+}
+.creds span { margin-right: 8px; }
+
 /* Footer */
 .site-footer { background: var(--bg); color: #cbd5e1; padding: 38px 0; }
 .footer-inner { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }
